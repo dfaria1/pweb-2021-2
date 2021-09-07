@@ -8,6 +8,7 @@ git add .                                                           - tudo o que
 git commit -m "mensagem"                                            - fechar uma tarefa e criar um "pacote"
 git branch -m                                                       - criação de uma ramificação
 git remote add origin https://github.com/dfaria1/pweb-2021-2        - cria um "link" entre o repositório local e o remoto
-git push -u origin Main                                             - envia do computador para o repositório remoto
+git push -u origin Main                                             - envia do computador para o repositório remoto (selecionando a origem)
+git push                                                            - para o cotidiano, envia os trabalhos realizados para o repositório remoto
 
 O recomendado é realizar um commit para cada tarefa realizada (por exemplo uma alteração em uma tela, uma correção de bug, etc)
