@@ -1,0 +1,8 @@
+Para utilizar o Git, no VSCode, no canto superior direito do terminal (na parte de baixod a tela), clicar no + e selecionar Git Bash
+
+
+git init                        - inicializar
+git status                      - verifica o status do repositório atual
+clear                           - limpar o git Bash
+git add .                       - tudo o que tem na pasta passa a ser "rastreado"
+git commit -m "mensagem"        - fechar uma tarefa e criar um "pacote"
