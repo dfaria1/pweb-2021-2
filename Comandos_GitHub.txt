@@ -11,4 +11,6 @@ git remote add origin https://github.com/dfaria1/pweb-2021-2        - cria um "l
 git push -u origin Main                                             - envia do computador para o repositório remoto (selecionando a origem)
 git push                                                            - para o cotidiano, envia os trabalhos realizados para o repositório remoto
 
+branch > add . > commit > git push
+
 O recomendado é realizar um commit para cada tarefa realizada (por exemplo uma alteração em uma tela, uma correção de bug, etc)
