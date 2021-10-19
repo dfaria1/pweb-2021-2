@@ -1,0 +1,183 @@
+.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    background-repeat:repeat;
+}
+.cover {
+    width: 100%;
+    height: 410px;
+    object-fit: cover;
+}
+
+.logo-container{
+    width: 160px;
+    height: 160px;
+    z-index: 2;
+    position: absolute;
+    top: 235px;
+    left: 42px;
+    background-color: rgb(133, 137, 155);
+    opacity: 1;
+    border-radius: 78px;
+    border: 2px solid rgb(175, 179, 197);
+}
+.logo {
+    width: 120px;
+    height: 120px;
+    z-index: 3;
+    position: absolute;
+    top: 245px;
+    left: 65px;
+}
+
+.top-menu-bar {
+    background-color: rgb(104, 103, 103);
+    height: 60px;
+    width: 100%;
+    margin-top: -9px;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.top-menu-button {
+    width: 150px;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 10px; 
+    margin-left: auto;  
+    margin-right: auto;
+    z-index: 4;
+}
+
+
+
+.card-side-dish{
+    margin: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    height: 1000px;
+    align-items: center;
+    justify-content: center;
+    padding:50px;
+}
+
+.card-payment{
+    margin: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    padding:50px;
+}
+
+
+.card-title{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight:lighter;
+    padding-bottom: 20px;
+}
+
+.card-content{
+    text-align: justify; 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight:lighter;  
+    margin-bottom: 20px;
+}
+
+.flavor-img {
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+
+}
+
+.teste {
+    font-size: 20px;
+    color:white;
+}
+
+
+body {
+    background-image: url("img/website-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+}
+
+header {
+    text-align: justify; 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight:lighter; 
+    color: white;
+    text-align: center;
+}
+/*
+button{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+*/
+footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 10px;
+}
+
+
+/* .header-title é uma classe de estilo. Ela pode ser aplicada em qualquer tag*/
+.header-title {
+    color:white;
+    background-color: blue;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+/* estes paddings poderiam ser substituídos por:     padding: 15px 10px 20px 25px    (sentido horário)*/
+}
+
+
+.card-order{
+    background-color: white;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left:60px;
+    margin-right:50px;
+    border-radius: 10px;
+    box-shadow: 1px 2px rgba(163, 163, 163, 0.5); /*rdba tem a transparência*/
+    border: 1px solid rgb(151, 151, 151);
+    padding: 10px;
+}
+
+.card-form{
+    width: 90%;
+    margin-left: 2%;
+    
+}
+
+.form-input{
+    width: 100%;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Lorem Ipsum Pizza</title>
+</head>
+
+<body>
+    <header>
+        <img class="cover" src="img/pizza-cover.jpg">
+        <div class="logo-container"></div>
+        <img class="logo" src="img/logo-no-bg.png">
+
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" onclick="window.location.href='index.html'">Menu <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" onclick="window.location.href='order.html'">Order <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </br></br>
+
+    <div class="card-order">
+        <div class="card-title">
+            Order
+        </div>
+        <form class="card-form">
+            <div class="form-group">
+                <label for="name">Name:</label></br>
+                <input class="form-input" type="text" id="name" />
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label></br>
+                <input class="form-input" type="text" id="address" />
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label></br>
+                <input class="form-input" type="text" id="phone" />
+            </div>
+            <div class="form-group">
+                <label for="pizza">Pizza:</label></br>
+                <input type="radio" id="pizza1" name="pizza-flavor" value="pizza1" />
+                <label for="pizza1">Supreme</label>
+                <input type="radio" id="pizza2" name="pizza-flavor" value="pizza2" />
+                <label for="pizza2">Prawns</label>
+                <input type="radio" id="pizza3" name="pizza-flavor" value="pizza3" />
+                <label for="pizza3">Hawaiian</label>
+                <input type="radio" id="pizza4" name="pizza-flavor" value="pizza4" />
+                <label for="pizza4">Kale & Bacon</label>
+                <input type="radio" id="pizza5" name="pizza-flavor" value="pizza5" />
+                <label for="pizza5">Mozzarela</label>
+                <input type="radio" id="pizza6" name="pizza-flavor" value="pizza6" />
+                <label for="pizza6">Quattro Formaggio</label>
+            </div>
+            <div class="form-group">
+                <label for="side-dishes">Side Dishes:</label></br>
+                <input type="checkbox" id="side1" name="side-dish" value="side1" />
+                <label for="side1">Garlic Bread</label>
+                <input type="checkbox" id="side2" name="side-dish" value="side2" />
+                <label for="side2">Greek Wedge Salad</label>
+                <input type="checkbox" id="side3" name="side-dish" value="side3" />
+                <label for="side3">Mozzarella Bites</label>
+                <input type="checkbox" id="side4" name="side-dish" value="side4" />
+                <label for="side4">Italian Bruschetta Bar</label>
+                <input type="checkbox" id="side5" name="side-dish" value="side5" />
+                <label for="side5">Kale Salad</label>
+                <input type="checkbox" id="side6" name="side-dish" value="side6" />
+                <label for="side6">Pesto Zoodles</label>
+            </div>
+            <div class="form-group">
+                <label for="payment-method">Payment Method:</label></br>
+                <select name="payment-method" id="payment-method">
+                    <option value="credit-card">Credit Card</option>
+                    <option value="cash">Cash</option>
+                    <option value="paypal">Paypal</option>
+                </select>
+            </div>
+            <div class="card-title">
+                Total: $39.90
+            </div>
+
+        </form>
+        <button>Order Now</button>
+    </div>
+
+    <footer>
+        Lorem Ipsum Pizza - github.com/dfaria1
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
